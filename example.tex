@@ -1,0 +1,18 @@
+\documentclass[wallet,11pt,final]{checkbook}
+\usepackage[
+    margin=.25in,
+    ]{geometry}
+\usepackage{fontspec}
+\input{ulem.sty}
+\newcommand{\routingnumber}{000000000}
+\newcommand{\accountnumber}{123456789}
+\newcommand{\accountname}{Dynamite Checking}
+\newcommand{\fullname}{Napoleon Dynamite}
+\newcommand{\streetaddress}{556 W 2000 S}
+\newcommand{\citystatezip}{Preston, ID 83263}
+
+\begin{document}
+\chk{1001}{June 13, 2024}{Kip Dynamite}{850.00}{Eight-hundred fifty and 0/100}{GameStop Shares}
+\chk{1002}{June 14, 2024}{Uncle Rico}{45.99}{Forty-five and 99/100}{Football equipment}
+\emptychk{1003}
+\end{document}

@@ -29,7 +29,7 @@
                 "latex-workshop.linting.chktex.enabled": true,
                 "latex-workshop.linting.chktex.exec.path": "chktex",
                 "latex-workshop.latex.clean.subfolder.enabled": true,
-                "latex-workshop.latex.recipe.default": "lastUsed",
+                "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
                 "latex-workshop.latex.autoClean.run": "onBuilt",
                 "editor.formatOnSave": true,
                 "files.associations": {

@@ -1,0 +1,11 @@
+*
+
+!.gitignore
+!README.md
+!.devcontainer
+!.devcontainer/*
+!checkbook.cls
+!MICREncoding.ttf
+!ally.png
+!example.tex
+!example.pdf
